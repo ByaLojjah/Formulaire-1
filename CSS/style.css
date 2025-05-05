@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    background-image: url("..\\IMAGE\\imageoriginel.JPG");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    width: 850px;
+    max-width: 75%;
+    height: 565px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left{
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-items: center;
+}
+.right{
+    flex: 1;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right input,.right select, .right button{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    font-weight:lighter;
+}
+
+#last_name{
+    margin: 0 20px;
+}
+
+#username,#email,#gender,#password,#confirm_password{
+    width: 86%;
+}
+
+#gender{
+    width: 90%;
+    color: gray;
+}
+
+.icons{
+    margin: -25px;
+    color: gray;
+    border: none;
+    fill: #ccc;
+}
+
+.right button{
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 35%;
+    width: 150px;
+    font-size: 16px;
+}
+
